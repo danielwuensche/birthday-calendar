@@ -1,0 +1,10 @@
+[google]
+# If modifying these scopes, delete the file token.json.
+scopes = ["https://www.googleapis.com/auth/contacts.readonly"]
+
+[azure]
+tenant_id = "consumers"
+client_id = "put Azure Client ID here"
+redirect_uri = 'http://localhost:8400'
+calendar_name = "Birthdays"
+event_reminder_minutes_before_start = 4860      # 3d 9h in minutes
